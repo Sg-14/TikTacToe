@@ -86,7 +86,6 @@ function Game() {
 }
 
 function calculateWinner(squares) {
-  // Determine the board size from the squares length
   const boardSize = Math.sqrt(squares.length);
   const lines = [];
 
